@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.spsappscorp.escolha360",
+      "sha256_cert_fingerprints": [
+        "F6:F7:F7:F6:AB:CD:28:CD:34:79:08:52:F9:A0:07:E5:63:C7:01:C4:DA:D3:02:BD:D5:A1:7A:92:0B:5A:03:53"
+      ]
+    }
+  }
+]
