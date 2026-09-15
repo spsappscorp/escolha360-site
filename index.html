@@ -114,6 +114,13 @@
         background 0.2s ease;
     }
 
+    .play-icon {
+      width: 22px;
+      height: 22px;
+      object-fit: contain;
+      margin-right: 10px;
+    }
+
     .btn:hover {
       background: #11613f;
       transform: translateY(-1px);
@@ -596,10 +603,15 @@
 
         <div class="hero-actions">
 
-          <a class="btn" href="#baixar">
+          <a class="btn" href="#">
+            <img
+              class="play-icon"
+              src="assets/images/google-play.png"
+              alt=""
+            >
             Baixar no Google Play
           </a>
-
+          
           <a
             class="secondary-link"
             href="#recursos"
