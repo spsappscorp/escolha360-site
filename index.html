@@ -309,6 +309,56 @@
       font-size: 14px;
     }
 
+    /* TELAS DO APP */
+
+.app-showcase {
+  background: #ffffff;
+}
+
+.showcase-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+}
+
+.showcase-image {
+  display: flex;
+  justify-content: center;
+}
+
+.showcase-image img {
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+  display: block;
+}
+
+.showcase-text span {
+  color: #177d55;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+}
+
+.showcase-text h2 {
+  margin-top: 10px;
+
+  color: #173d2e;
+
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.15;
+}
+
+.showcase-text p {
+  margin-top: 20px;
+
+  max-width: 500px;
+
+  color: #69736e;
+  font-size: 18px;
+}
+
     /* TRANSPARÊNCIA */
 
     .transparency {
@@ -643,6 +693,40 @@
     </div>
 
   </section>
+
+  <section class="app-showcase">
+
+  <div class="container">
+
+    <div class="showcase-row">
+
+      <div class="showcase-image">
+        <img
+          src="assets/images/lista-candidatos.png"
+          alt="Lista de candidatos no Escolha360"
+        >
+      </div>
+
+      <div class="showcase-text">
+
+        <span>EXPLORE</span>
+
+        <h2>
+          Encontre os candidatos em um só lugar.
+        </h2>
+
+        <p>
+          Consulte candidatos e acesse as informações
+          disponíveis de forma simples e organizada.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
 
   <section
